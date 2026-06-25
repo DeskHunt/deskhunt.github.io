@@ -230,6 +230,33 @@
     letter-spacing: 0.5px;
   }
 
+  /* -- НОВЫЕ СТИЛИ ДЛЯ ФОТО -- */
+  .photo-block {
+    max-width: 600px;
+    margin: 2rem auto 0;
+    background: var(--bg-card);
+    border: 0.5px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .photo-block img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 0.75rem;
+    border: 0.5px solid var(--border);
+  }
+
+  .photo-block .caption {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
   /* LINKS */
   .links-list {
     max-width: 480px;
@@ -381,9 +408,21 @@
     </div>
     <div class="about-card">
       <span class="icon">⚡</span>
-      <h3>DIY и Arduino</h3>
-      <p>Кастомные решения для эргономики. Умный свет, датчики, автоматизация.</p>
+      <h3>DIY-проекты</h3>
+      <p>Кастомные девайсы для стола DIY-проекты</p>
     </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===== НОВЫЙ БЛОК: МОЙ СТОЛ ===== -->
+<section>
+  <div class="section-label">Мой рабочий стол</div>
+  <div class="photo-block">
+    <!-- ЗДЕСЬ ВСТАВЬТЕ ССЫЛКУ НА ФОТО ВАШЕГО СТОЛА -->
+    <img src="https://t.me/Desk_Hunt/12" alt="Мой стол">
+    <div class="caption">Мой идеальный стол — эргономика, порядок и вдохновение</div>
   </div>
 </section>
 
@@ -403,10 +442,23 @@
       <span class="tag">Чистота и порядок</span>
       <span class="tag">Эргономика</span>
       <span class="tag">Освещение</span>
-      <span class="tag">Кабели</span>
+      <span class="tag">Кабель-менеджмент</span>
+      <span class="tag">Функциональность</span>
       <span class="tag">Индивидуальность</span>
       <span class="tag">Вдохновение</span>
     </div>
+
+    <!-- ===== НОВОЕ ФОТО ТРОФЕЙНОГО СТОЛА ===== -->
+    <div style="margin: 1.5rem 0;">
+      <!-- ЗДЕСЬ ВСТАВЬТЕ ССЫЛКУ НА ФОТО ТРОФЕЙНОГО СТОЛА -->
+      <img src="https://t.me/Desk_Hunt/51" 
+           alt="Трофейный стол месяца" 
+           style="width:100%; border-radius:12px; border:0.5px solid var(--border); display:block;">
+      <div style="font-size:13px; color:var(--text-muted); margin-top:8px; font-style:italic;">
+        🏆 Стол победителя прошлого месяца
+      </div>
+    </div>
+
     <a href="https://t.me/Desk_Hunt" class="btn-primary">Прислать свой стол</a>
   </div>
 </section>
@@ -418,7 +470,7 @@
   <h2>Хочешь идеальный стол?</h2>
   <p>
     Я прошёл путь от неудобной деревяшки до стола на заказ с пазами,
-    вырезами и продуманной эргономикой. Готов помочь тебе.
+         вырезами и продуманной эргономикой. Готов помочь тебе.
   </p>
   <a href="https://t.me/Desk_Hunt" class="btn-primary">Написать в Telegram</a>
 </div>
